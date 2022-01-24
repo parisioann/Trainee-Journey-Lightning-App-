@@ -32,7 +32,7 @@ public inherited sharing class bg_JourneyTasksProgressSendEmail implements Datab
     Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();
     String[] toAddresses = new List<String>{ managerEmail };
     mail.setToAddresses(toAddresses);
-    mail.setReplyTo('parisioannou@brightgen.com');
+    mail.setReplyTo('parisioannou2017@gmail.com');
     mail.setSenderDisplayName('MainlyDigital');
     mail.setSubject('Candidate Progress - Daily Notification');
     mail.setHtmlBody(htmlBody);
