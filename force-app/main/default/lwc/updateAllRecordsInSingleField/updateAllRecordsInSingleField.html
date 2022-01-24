@@ -1,0 +1,30 @@
+<template>
+    <lightning-card icon-name="standard:drafts" title={label.massUpdateByField}>
+        <div class="slds-p-left_medium  slds-p-top_small">
+             <div class="slds-grid slds-gutters">
+                <div class="slds-col slds-size_8-of-12">
+                    <lightning-input 
+                        oncommit={handleCommit}
+                        type="number" 
+                        step="1"
+                        max="365"
+                        min="-365"
+                        label={label.relativeDaysToComplete}
+                        message-when-bad-input={label.numBadInput}
+                        message-when-type-mismatch={label.numBadInput}
+                        message-when-range-overflow={label.maxDaysValue}
+                        message-when-range-underflow={label.minDaysValue}
+                        message-when-step-mismatch={label.daysToCompleteFieldStep}
+                        field-level-help={label.daysToCompleteFieldHelpText}>
+                    </lightning-input>
+                </div>
+                <div class="slds-col slds-size_4-of-12">
+                    <div class="slds-p-top_large slds-p-left_large">
+                        <lightning-button variant="brand" label={label.updateBtn} type="submit">
+                        </lightning-button>
+                    </div>   
+                </div>
+            </div>    
+        </div>        
+    </lightning-card>
+</template>

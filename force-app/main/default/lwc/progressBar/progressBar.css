@@ -1,0 +1,12 @@
+.bar {
+  border-width: 3px;
+  border-style: ridge;
+  border-radius: 15px;
+  border-color: #00bfff;
+  margin-left: 5px;
+}
+
+p {
+  font-weight: bold;
+  padding-left: 20px;
+}

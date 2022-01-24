@@ -1,0 +1,16 @@
+<template>
+  <div class="slds-grid">
+    <div class="slds-col slds-size_10-of-12">
+      <div class="bar">
+        <lightning-progress-bar
+          class="slds-progress-bar_circular"
+          value={percentage}
+          size="large"
+        ></lightning-progress-bar>
+      </div>
+    </div>
+    <div class="slds-col slds-size_2-of-12">
+      <p>{percentage} %</p>
+    </div>
+  </div>
+</template>

@@ -1,0 +1,24 @@
+<template>
+  <lightning-card icon-name="standard:note" title={label.journeyTasksProgressCardTitle}>
+    <template if:true={hide}>
+      <div class="progressBar">
+        <c-progress-bar percentage={percentage}></c-progress-bar>
+      </div>
+      <br />
+      <lightning-datatable
+        key-field="Id"
+        data={journeyTasks}
+        columns={columns}
+        hide-checkbox-column="true">
+      </lightning-datatable>
+    </template>
+    <template if:true={error}>
+      <lightning-formatted-text value={label.dataErrorMessage}></lightning-formatted-text>
+    </template>
+    <template if:false={hide}>
+      <p class="slds-text-color_default slds-align_absolute-center">
+        <lightning-formatted-text value={label.noTasksMessage}></lightning-formatted-text>
+      </p>
+    </template>
+  </lightning-card>
+</template>

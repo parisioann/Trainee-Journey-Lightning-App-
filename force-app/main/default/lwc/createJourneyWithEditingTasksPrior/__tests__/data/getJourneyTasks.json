@@ -1,0 +1,34 @@
+[
+    {
+        "Id": "a001h000004pDNxAAM",
+        "Name": "Setup your Workspace",
+        "CompletionStatus__c": "Overdue",
+        "EstimatedCompletionDate__c": "2021-08-20",
+        "RelativeDaystoComplete__c": "7",
+        "TaskRequirements__c": "<p>Follow Steps<p>"
+    },
+    {
+        "Id": "a001h000004pDNyAAM",
+        "Name": "Trailhead",
+        "CompletionStatus__c": "Complete",
+        "EstimatedCompletionDate__c": "2021-08-26",
+        "RelativeDaystoComplete__c": "10",
+        "TaskRequirements__c": "Follow Steps"
+    },
+    {
+        "Id": "a001h000004pDNzAAM",
+        "Name": "Attend Stand Up",
+        "CompletionStatus__c": "Complete",
+        "EstimatedCompletionDate__c": "2021-08-23",
+        "RelativeDaystoComplete__c": "12",
+        "TaskRequirements__c": "Follow Steps"
+    },
+    {
+        "Id": "a001h000004pDO0AAM",
+        "Name": "Challenge 1",
+        "CompletionStatus__c": "In Progress",
+        "EstimatedCompletionDate__c": "2021-10-18",
+        "RelativeDaystoComplete__c": "7",
+        "TaskRequirements__c": "Follow Steps"
+    }
+]

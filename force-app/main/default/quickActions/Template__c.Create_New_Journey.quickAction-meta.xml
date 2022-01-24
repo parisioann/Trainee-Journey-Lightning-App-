@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionSubtype>ScreenAction</actionSubtype>
+    <description>Create a new Journey from within a Template&apos;s page. It will insert all Template Tasks into the new Journey.</description>
+    <label>Create New Journey</label>
+    <lightningWebComponent>createJourneyFromTemplatePageQuickAction</lightningWebComponent>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>LightningWebComponent</type>
+</QuickAction>

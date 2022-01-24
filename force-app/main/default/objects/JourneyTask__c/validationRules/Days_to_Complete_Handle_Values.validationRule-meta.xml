@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Days_to_Complete_Handle_Values</fullName>
+    <active>true</active>
+    <description>Days To Complete field should be display only positive values.</description>
+    <errorConditionFormula>RelativeDaystoComplete__c &lt;=0</errorConditionFormula>
+    <errorMessage>Relative Days to Complete should be a positive value and larger than 1.</errorMessage>
+</ValidationRule>

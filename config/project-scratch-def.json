@@ -1,0 +1,29 @@
+
+
+{
+
+  "orgName": "company",
+
+  "edition": "Developer",
+
+  "features": ["EnableSetPasswordInApi"],
+
+  "adminEmail": "parisioannou12@gmail.com",
+
+  "settings": {
+
+    "lightningExperienceSettings": {
+
+      "enableS1DesktopEnabled": true
+
+    },
+
+    "mobileSettings": {
+
+      "enableS1EncryptedStoragePref2": false
+
+    }
+
+  }
+
+}

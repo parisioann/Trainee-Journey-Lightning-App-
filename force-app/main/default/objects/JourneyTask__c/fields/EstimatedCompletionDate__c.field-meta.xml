@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EstimatedCompletionDate__c</fullName>
+    <description>Displays the Estimated Completion Date. It is being calculated as Relative Days to complete (unique to each task) added to the Journey&apos;s Onboarding Start Date.</description>
+    <externalId>false</externalId>
+    <formula>Journey__r.OnboardingStartDate__c + RelativeDaystoComplete__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Estimated Completion Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

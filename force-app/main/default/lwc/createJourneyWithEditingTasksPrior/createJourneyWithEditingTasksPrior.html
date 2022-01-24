@@ -1,0 +1,62 @@
+<template>
+    <div class="slds-grid slds-gutters">
+      <div class="slds-col slds-size_2-of-3">
+        <lightning-card icon-name="standard:task" title={label.editTasksCardTitle}>
+          <div class="slds-grid slds-grid_vertical">
+            <div class="slds-col slds-m-bottom_medium slds-m-left_x-small">
+              <div class="slds-grid slds-gutters">
+                <div class="slds-col slds-size_2-of-3 slds-border_top slds-border_bottom">
+                    <ul class="slds-list_dotted slds-p-bottom_x-small slds-p-top_x-small">
+                      <lightning-formatted-rich-text value={label.editTasksCmpInstructions}></lightning-formatted-rich-text>
+                    </ul>
+                  </div>
+                <div class="slds-col slds-size_1-of-3">
+                  <div class="slds-float_right">
+                    <lightning-button variant="brand" label={label.journeyPageBtn} onclick={handleClick}></lightning-button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slds-col">
+              <template if:true={hide}>
+                    <template for:each={journeyTasks} for:item="task">
+                        <div class="slds-border_top slds-p-bottom_small" style="border-top-color: grey; border-top-width: 2px;"
+                            key={task.Id}>
+                            <lightning-card icon-name="utility:edit" title={task.Name}>
+                                <lightning-record-edit-form
+                                    object-api-name={objectApiName}
+                                    record-id={task.Id}
+                                    onsuccess={handleSuccess}
+                                    onerror={handleError}>
+                                    <div class="slds-grid slds-gutters">
+                                      <div class="slds-col slds-size_2-of-3">
+                                        <lightning-input-field field-name="Name" value={task.Name}></lightning-input-field>
+                                      </div>
+                                      <div class="slds-col slds-size_1-of-3">
+                                        <lightning-input-field field-name="RelativeDaystoComplete__c" value={task.RelativeDaystoComplete__c}></lightning-input-field>
+                                      </div>
+                                    </div>
+                                    <lightning-input-field field-name="TaskRequirements__c" value={task.TaskRequirements__c}></lightning-input-field>
+                                    <lightning-button type="submit" name="submit" label={label.updateTaskBtn}></lightning-button>
+                                </lightning-record-edit-form>
+                        </lightning-card>
+                        </div>
+                    </template>
+              </template>
+              <template if:true={error}>
+                <lightning-formatted-text value={label.dataErrorMessage}></lightning-formatted-text>
+              </template>
+              <template if:false={hide}>
+                <p class="slds-text-color_default slds-align_absolute-center">
+                  <lightning-formatted-text value={label.noTasksMessage}></lightning-formatted-text>
+                </p>
+              </template>
+            </div>
+          </div>
+        </lightning-card>
+      </div>
+      <div class="slds-col slds-size_1-of-3">
+          <c-update-all-records-in-single-field journey={journey}></c-update-all-records-in-single-field>
+      </div>
+    </div>
+  </template>

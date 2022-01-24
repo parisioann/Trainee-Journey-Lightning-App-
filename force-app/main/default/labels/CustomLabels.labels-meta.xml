@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Cancel_Button_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Cancel Button Label</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Change_Start_Date</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Change Start Date</shortDescription>
+        <value>Change Start Date</value>
+    </labels>
+    <labels>
+        <fullName>Create_New_Journey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Create New Journey</shortDescription>
+        <value>Create New Journey</value>
+    </labels>
+    <labels>
+        <fullName>Datatable_Label_Estimated_Completion_Date</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Datatable Label Estimated Completion Date</shortDescription>
+        <value>Estimated Completion Date</value>
+    </labels>
+    <labels>
+        <fullName>Datatable_Label_Status</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Datatable Label Status</shortDescription>
+        <value>Status</value>
+    </labels>
+    <labels>
+        <fullName>Datatable_Label_Task</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Datatable Label Task</shortDescription>
+        <value>Task</value>
+    </labels>
+    <labels>
+        <fullName>Edit_Journey_Tasks_Cmp_Instructions</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Edit Journey Tasks Cmp Instructions</shortDescription>
+        <value>&lt;LI&gt;Edit each Journey Task and press &lt;B&gt;Update Task&lt;/B&gt; each time.&lt;/LI&gt;
+            &lt;LI&gt;Press &lt;B&gt;Journey Page&lt;/B&gt; if you want to get re-directed to the new Journey&apos;s record page.&lt;/LI&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Edit_Tasks_Card_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Edit Tasks Card Title</shortDescription>
+        <value>Edit Tasks</value>
+    </labels>
+    <labels>
+        <fullName>Error_Occurred_Msg</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error Occurred Msg</shortDescription>
+        <value>An error occurred.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Updating_Records_Msg</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error Updating Records Msg</shortDescription>
+        <value>Error updating record(s).</value>
+    </labels>
+    <labels>
+        <fullName>Get_Data_Error_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Get Data Error Message</shortDescription>
+        <value>&lt;P&gt;An Error Occurred, see error message on pop up window.&lt;/P&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Journey_Creation_Success_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Journey Creation Success Message</shortDescription>
+        <value>Journey was created.</value>
+    </labels>
+    <labels>
+        <fullName>Journey_Page_Button_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Journey Page Button Label</shortDescription>
+        <value>Journey Page</value>
+    </labels>
+    <labels>
+        <fullName>Journey_Tasks_Progress</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Journey Tasks Progress</shortDescription>
+        <value>Tasks Progress</value>
+    </labels>
+    <labels>
+        <fullName>Max_Days_Value</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Max Days Value Msg</shortDescription>
+        <value>Maximum value is 365.</value>
+    </labels>
+    <labels>
+        <fullName>Min_Days_Value</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Min Days Value Msg</shortDescription>
+        <value>Minimum value is -365.</value>
+    </labels>
+    <labels>
+        <fullName>Msg_for_Bad_Input_in_Numeric_Field</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Msg for Bad Input in Numeric Field</shortDescription>
+        <value>Please insert only numbers.</value>
+    </labels>
+    <labels>
+        <fullName>No_Tasks_Available</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>No Tasks Available</shortDescription>
+        <value>No tasks are available for this Journey.</value>
+    </labels>
+    <labels>
+        <fullName>Relative_Days_to_Complete_Field_Step_Size</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Relative Days to Complete Field Step Size</shortDescription>
+        <value>Value can be altered in steps of 1.</value>
+    </labels>
+    <labels>
+        <fullName>Relative_Days_to_Complete_Field_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Relative Days to Complete Field Title</shortDescription>
+        <value>Relative Days to Complete</value>
+    </labels>
+    <labels>
+        <fullName>Relative_Days_to_Complete_Mass_Update_Help_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Relative Days to Complete Mass Update Help Text</shortDescription>
+        <value>Update Relative Days to Complete by the same amount, for all Records.</value>
+    </labels>
+    <labels>
+        <fullName>Save_Button_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save Button Label</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>Save_Edit_Tasks</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save Edit Tasks Button Label</shortDescription>
+        <value>Save &amp; Edit Tasks</value>
+    </labels>
+    <labels>
+        <fullName>Save_Go_To_Journey_Page_Button_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save Go To Journey Page Button Label</shortDescription>
+        <value>Save &amp; See Journey</value>
+    </labels>
+    <labels>
+        <fullName>Update_All_Records_By_Field</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Update All Records By Field</shortDescription>
+        <value>Update All Records By Field</value>
+    </labels>
+    <labels>
+        <fullName>Update_Button_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Update Button Label</shortDescription>
+        <value>Update</value>
+    </labels>
+    <labels>
+        <fullName>Update_Task_Button_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Update Task Button Label</shortDescription>
+        <value>Update Task</value>
+    </labels>
+    <labels>
+        <fullName>Updated_Task_Msg</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Updated Task Msg</shortDescription>
+        <value>Task has been updated.</value>
+    </labels>
+    <labels>
+        <fullName>Negative_Value_Days_to_Complete_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Negative Value Days to Complete Error Msg</shortDescription>
+        <value>Relative Days to Complete should be a positive value and larger than 1.</value>
+    </labels>
+</CustomLabels>
