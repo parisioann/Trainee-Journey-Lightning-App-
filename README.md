@@ -13,5 +13,6 @@ This Lightning app allows to create "Journeys" for trainees, which are tasks tha
 - Create New Journey from inside a Template (custom quick action component and inserted into the record page as a button)
 ![create journey from template component](https://user-images.githubusercontent.com/97835800/150794690-6abca01d-abd2-4731-8304-5b11b727f845.png)
 
-- Edit Tasks prior to saving/ Mass update tasks by the same amount of days
+- A) Edit Tasks prior to saving component(left): It gets the tasks from the newly created  Journey and allows to edit them.
+- B) Mass update tasks by the same amount of days component(right): Increments the completion date for all tasks by the same amount.
 ![edit tasks upon saving](https://user-images.githubusercontent.com/97835800/150794697-074493fb-5a36-49d1-9280-028d25fae4d7.png)
