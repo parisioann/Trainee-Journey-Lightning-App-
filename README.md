@@ -4,10 +4,10 @@ This Lightning app allows to create "Journeys" for trainees, which are tasks tha
 
 
 - Tasks Progress lwc designed&implemented from scratch: 
-- Green -> Completed
-- Yellow -> In Progress
-- Red - Overdue 
-- Bar to show the completion percentage
+1) Green -> Completed
+2) Yellow -> In Progress
+3) Red - Overdue 
+4) Bar to show the completion percentage
 ![Tasks Progress lwc](https://user-images.githubusercontent.com/97835800/150794682-d5d9eadd-0c2d-40da-a4bd-e480177c41e7.png)
 
 - Create New Journey from inside a Template (custom quick action component and inserted into the record page as a button)
